@@ -33,8 +33,7 @@ y = df[target_col]
 
 # Perform train-test split
 Xtrain, Xtest, ytrain, ytest = train_test_split(
-    X, y, test_size=str(Test_size), random_state=str(Random_state)
-)
+    X, y, test_size=Test_size, random_state=Random_state)
 
 Xtrain.to_csv("Xtrain.csv",index=False)
 Xtest.to_csv("Xtest.csv",index=False)
