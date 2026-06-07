@@ -35,6 +35,8 @@ ytest.to_csv("ytest.csv",index=False)
 
 
 files = ["Xtrain.csv","Xtest.csv","ytrain.csv","ytest.csv"]
+HF_username="hasilm1"
+App_name="Predict_mydata"
 
 for file_path in files:
     api.upload_file(
