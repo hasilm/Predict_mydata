@@ -17,6 +17,8 @@ from huggingface_hub import login, HfApi, create_repo
 from huggingface_hub.utils import RepositoryNotFoundError, HfHubHTTPError
 
 api = HfApi()
+HF_username="hasilm1"
+App_name="Predict_mydata"
 
 Xtrain_path = "hf://datasets/"+str(HF_username)+"/"+str(App_name)+"/Xtrain.csv"                    # enter the Hugging Face username here
 Xtest_path = "hf://datasets/"+str(HF_username)+"/"+str(App_name)+"/Xtest.csv"                      # enter the Hugging Face username here
