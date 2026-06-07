@@ -1,5 +1,8 @@
 from huggingface_hub import HfApi
 import os
+Folder_name="FPredict_mydata"
+HF_username="hasilm1"
+App_name="Predict_mydata"
 
 api = HfApi(token=os.getenv("HF_TOKEN"))
 api.upload_folder(
