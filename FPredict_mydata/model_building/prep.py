@@ -14,7 +14,9 @@ HF_username="hasilm1"
 App_name="Predict_mydata"
 Folder_name="FPredict_mydata"
 Column_name="class"
-
+Test_size=0.2
+Random_state=42
+Model_name="best_predict_mydata_model_v1.joblib"
 
 # Define constants for the dataset and output paths
 api = HfApi(token=os.getenv("HF_TOKEN"))
