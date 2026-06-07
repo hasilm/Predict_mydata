@@ -19,7 +19,14 @@ from huggingface_hub.utils import RepositoryNotFoundError, HfHubHTTPError
 api = HfApi()
 HF_username="hasilm1"
 App_name="Predict_mydata"
-
+Folder_name="FPredict_mydata"
+GH_username="hasilm"
+HF_username="hasilm1"
+App_name="Predict_mydata"
+Column_name="class"
+Test_size=0.2
+Random_state=42
+Model_name="best_predict_mydata_model_v1.joblib"
 Xtrain_path = "hf://datasets/"+str(HF_username)+"/"+str(App_name)+"/Xtrain.csv"                    # enter the Hugging Face username here
 Xtest_path = "hf://datasets/"+str(HF_username)+"/"+str(App_name)+"/Xtest.csv"                      # enter the Hugging Face username here
 ytrain_path = "hf://datasets/"+str(HF_username)+"/"+str(App_name)+"/ytrain.csv"                    # enter the Hugging Face username here
