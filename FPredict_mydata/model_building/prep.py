@@ -12,6 +12,8 @@ from huggingface_hub import login, HfApi
 
 HF_username="hasilm1"
 App_name="Predict_mydata"
+Folder_name="FPredict_mydata"
+
 
 # Define constants for the dataset and output paths
 api = HfApi(token=os.getenv("HF_TOKEN"))
