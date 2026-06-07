@@ -18,7 +18,7 @@ Folder_name="FPredict_mydata"
 # Define constants for the dataset and output paths
 api = HfApi(token=os.getenv("HF_TOKEN"))
 print(os.getenv("HF_TOKEN"))
-DATASET_PATH = "hf://datasets/"+str(HF_username)+"/"+str(Folder_name)+"/pima.csv"                  # enter the Hugging Face username here
+DATASET_PATH = "hf://datasets/"+str(HF_username)+"/"+str(App_name)+"/pima.csv"                  # enter the Hugging Face username here
 df = pd.read_csv(DATASET_PATH)
 print("Dataset loaded successfully.")
 
