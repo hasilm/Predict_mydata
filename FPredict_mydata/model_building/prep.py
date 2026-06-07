@@ -13,6 +13,7 @@ from huggingface_hub import login, HfApi
 HF_username="hasilm1"
 App_name="Predict_mydata"
 Folder_name="FPredict_mydata"
+Column_name="class"
 
 
 # Define constants for the dataset and output paths
