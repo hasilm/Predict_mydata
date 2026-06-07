@@ -3,6 +3,13 @@ import pandas as pd
 from huggingface_hub import hf_hub_download
 import joblib
 
+Folder_name="FPredict_mydata"
+
+HF_username="hasilm1"
+App_name="Predict_mydata"
+
+Model_name="best_predict_mydata_model_v1.joblib"
+
 # Download and load the model
 model_path = hf_hub_download(repo_id=str(HF_username)+"/"+str(App_name), filename=Model_name) # enter the Hugging Face username here
 model = joblib.load(model_path)
